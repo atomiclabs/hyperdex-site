@@ -2,8 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 3rem;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 16px;
+  margin-top: 2rem;
 }
 
 .subTitle {
+  margin-top: 1rem;
   text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7F8FA4;
 }

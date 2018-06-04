@@ -15,5 +15,17 @@
 .ctas {
   margin-top: 3rem;
   display: flex;
-  padding: 0 20rem;
+  align-items: baseline;
+}
+
+.text {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

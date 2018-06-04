@@ -6,11 +6,11 @@ import Main from '../components/Main'
 import Footer from '../components/Footer'
 
 const IndexPage = () => (
-  <div>
-    <Header />
-    <Main />
-    <Footer />
-  </div>
+	<div>
+		<Header />
+		<Main />
+		<Footer />
+	</div>
 )
 
 export default IndexPage
