@@ -1,0 +1,16 @@
+.description {
+	margin-top: 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1rem;
+}
+
+.image {
+	width: 300px;
+}
+
+/* Pseudo Styles */
+
+.description:first-child {
+	margin: 0;
+}
