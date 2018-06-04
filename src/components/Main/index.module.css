@@ -1,9 +1,10 @@
 .main {
-    background: #161C26;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	position: relative;
+	background: #161C26;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .title {
@@ -37,4 +38,19 @@
   flex-direction: column;
 	justify-content: space-between;
 	padding: 0 15rem;
+	z-index: 2;
+}
+
+.leftWave {
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+
+.rightWave {
+	position: absolute;
+	bottom: 0;
+	right: -1rem;
+	z-index: 1;
+	transform: scale(-1)
 }
