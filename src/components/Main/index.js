@@ -31,4 +31,5 @@ export default () => <div className={styles.main}>
         ctas.map(cta => <CTA key={cta.title} logo={cta.logo} title={cta.title} subTitle={cta.subTitle} />)
       }
     </div>
+    <p style={{marginTop: '5rem'}} className={styles.title}>Grandma-friendly User Experience</p>
 </div>

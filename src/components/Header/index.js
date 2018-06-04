@@ -4,7 +4,7 @@ import styles from './index.module.css'
 import Logo from '../SVG/Logo'
 import Button from '../Button'
 import Chart from '../SVG/Chart'
-import Mockup from '../SVG/Mockup'
+import headerAppImage from '../../images/header-app.jpeg'
 
 export default () => <div className={styles.header}>
   {/* <Logo /> */}
@@ -13,6 +13,6 @@ export default () => <div className={styles.header}>
   <Button text='Join the test' />
   <p className={styles.text}>Available for Windows, Mac OS and Linux.</p>
   <Chart />
-  <Mockup />
+  <img src={headerAppImage} alt='stf' className={styles.headerAppImage}/>
   <div className={styles.divider}></div>
 </div>
