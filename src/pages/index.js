@@ -1,10 +1,13 @@
 import React from 'react'
+import './index.module.css'
+
+import Header from '../components/Header'
+import Main from '../components/Main'
 
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <Header />
+    <Main />
   </div>
 )
 
