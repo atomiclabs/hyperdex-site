@@ -12,22 +12,29 @@
   font-weight: 600;
 }
 
+.subTitle {
+	color: #7F8FA4;
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 1rem;
+}
+
 .ctas {
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: flex;
   align-items: baseline;
 }
 
 .text {
-  margin-top: 1rem;
+  margin: 1rem 0 4rem 0;
   font-size: 0.875rem;
   line-height: 1.125rem;
 }
 
 .descriptions {
-	margin-top: 2rem;
+	margin-top: 4rem;
   display: flex;
   flex-direction: column;
 	justify-content: space-between;
-	padding: 0 10rem;
+	padding: 0 15rem;
 }

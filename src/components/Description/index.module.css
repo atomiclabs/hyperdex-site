@@ -6,11 +6,39 @@
 }
 
 .image {
-	width: 300px;
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+.texts {
+	display: flex;
+	padding: 7rem 0;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 600;
+}
+
+.subTitle {
+	font-size: 18px;
+	line-height: 24px;
+	color: #7F8FA4;
 }
 
 /* Pseudo Styles */
 
 .description:first-child {
 	margin: 0;
+}
+
+.description:nth-child(even) .imageWrapper {
+	order: 2;
+	display: flex;
+	justify-content: flex-end;
 }

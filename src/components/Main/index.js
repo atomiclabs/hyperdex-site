@@ -63,8 +63,8 @@ export default () => <div className={styles.main}>
 			descriptions.map(description => <Description key={description.title} title={description.title} image={description.image} subTitle={description.subTitle}/>)
 		}
 	</div>
-	<p>Ready to try HyperDEX?</p>
-	<p>Do your first Atomic Swap in minutes.</p>
+	<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try HyperDEX?</p>
+	<p className={styles.subTitle}>Do your first Atomic Swap in minutes.</p>
 	<Button text='Join the test' />
 	<p className={styles.text}>Available for Windows, Mac OS and Linux.</p>
 	<HorizontalWave />
