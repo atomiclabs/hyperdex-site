@@ -73,6 +73,6 @@ export default () => <div className={styles.main}>
 	<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try HyperDEX?</p>
 	<p className={styles.subTitle}>Do your first Atomic Swap in minutes.</p>
 	<Button text='Join the test' />
-	<p className={styles.text}>Available for Windows, Mac OS and Linux.</p>
+	<p className={styles.text}>Available for Windows, macOS and Linux.</p>
 	<HorizontalWave />
 </div>
