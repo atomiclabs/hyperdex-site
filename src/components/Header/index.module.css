@@ -11,8 +11,7 @@
 .title {
 	margin-top: 2rem;
   font-size: 3rem;
-  line-height: 2.8rem;
-  font-style: italic;
+  line-height: 3rem;
   font-weight: 600;
 }
 
@@ -40,6 +39,9 @@
   margin-top: 1rem;
   font-size: 0.875rem;
   line-height: 1.125rem;
+  font-weight: 300;
+  max-width: 177px;
+  text-align: center;
 }
 
 .headerAppImage {
