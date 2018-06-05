@@ -8,7 +8,7 @@ import Description from '../Description'
 import Portfolio from '../SVG/Portfolio'
 import Button from '../Button'
 import HorizontalWave from '../SVG/HorizontalWave'
-import LeftWave from '../SVG/LeftWave'
+import SideWave from '../../images/wave.png'
 
 import WalletImage from '../../images/wallet.jpeg'
 import ExchangeImage from '../../images/exchange.jpeg'
@@ -65,10 +65,10 @@ export default () => <div className={styles.main}>
 		}
 	</div>
 	<div className={styles.leftWave}>
-		<LeftWave />
+		<img src={SideWave} alt='wave'/>
 	</div>
 	<div className={styles.rightWave}>
-		<LeftWave />
+		<img src={SideWave} alt='wave'/>
 	</div>
 	<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try HyperDEX?</p>
 	<p className={styles.subTitle}>Do your first Atomic Swap in minutes.</p>
