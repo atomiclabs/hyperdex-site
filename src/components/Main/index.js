@@ -10,7 +10,7 @@ import Button from '../Button'
 import HorizontalWave from '../SVG/HorizontalWave'
 import SideWave from '../../images/wave.png'
 
-import WalletImage from '../../images/wallet.jpeg'
+import WalletImage from '../../images/wallet.svg'
 import ExchangeImage from '../../images/exchange.jpeg'
 import SwapImage from '../../images/swap.jpeg'
 
