@@ -11,8 +11,8 @@ import HorizontalWave from '../SVG/HorizontalWave'
 import SideWave from '../../images/wave.png'
 
 import WalletImage from '../../images/wallet.svg'
-import ExchangeImage from '../../images/exchange.jpeg'
-import SwapImage from '../../images/swap.jpeg'
+import ExchangeImage from '../../images/exchange.svg'
+import SwapImage from '../../images/swap.svg'
 
 
 const ctas = [
