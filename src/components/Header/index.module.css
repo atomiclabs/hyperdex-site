@@ -16,7 +16,7 @@
 }
 
 .subTitle {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   font-size: 1.25rem;
   color: #7F8FA4;
 }
@@ -46,7 +46,7 @@
 
 .headerAppImage {
   position: absolute;
-  bottom: 10%;
+  bottom: 8%;
   width: 900px;
   box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.5);
 }
