@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html, body, p {
@@ -10,3 +11,4 @@ html, body, p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 }
+
