@@ -2,6 +2,7 @@
 
 
 /* @todo: Apply a 1200px content wrapper, so things don't fly away on wide screens: https://cl.ly/3E181j3S2u0x */
+/* @todo: Make sure there is no vertical scrolling (use overflow: hidden for example) */
 
 * {
   box-sizing: border-box;
@@ -14,4 +15,3 @@ html, body, p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
 }
-
