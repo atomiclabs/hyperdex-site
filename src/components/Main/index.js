@@ -52,6 +52,7 @@ const descriptions = [
 ]
 
 export default () => <div className={styles.main}>
+	{/* @todo: Make sure top and bottom padding sorrounding titles match what's in Figma */}
 	<p className={styles.title}>One stop crypto exchange solution</p>
 	{/* @todo: Fix weird looking SVGs. Beleraktam 3 optimalizált SVG-t az SVG folderbe. */}
 	<div className={styles.ctas}>
