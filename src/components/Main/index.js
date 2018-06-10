@@ -53,6 +53,7 @@ const descriptions = [
 
 export default () => <div className={styles.main}>
 	<p className={styles.title}>One stop crypto exchange solution</p>
+	{/* @todo: Fix weird looking SVGs. Beleraktam 3 optimalizált SVG-t az SVG folderbe. */}
 	<div className={styles.ctas}>
 		{
 			ctas.map(cta => <CTA key={cta.title} logo={cta.logo} title={cta.title} subTitle={cta.subTitle} />)
