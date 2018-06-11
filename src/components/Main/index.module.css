@@ -54,7 +54,7 @@
 .rightWave {
 	position: absolute;
 	bottom: 0;
-	right: -1rem;
+	right: 0;
 	z-index: 1;
 	transform: scale(-1)
 }
