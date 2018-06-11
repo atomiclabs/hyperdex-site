@@ -12,7 +12,6 @@ export default () => <div className={styles.header}>
 	<p className={styles.subTitle}>Desktop app for BarterDEX. Currently in private testing phase, official launch in July 2018.</p>
 	<Button text='Join the test' />
 	<p className={styles.text}>Available for MacOS, Linux and Windows.</p>
-	{/* @todo: Chart has to be positioned higher. https://cl.ly/433a2Z2U0t3F See it in Figma. */}
 	<Chart />
 	<img src={headerAppImage} alt='stf' className={styles.headerAppImage}/>
 	<div className={styles.divider}></div>

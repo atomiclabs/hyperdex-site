@@ -2,10 +2,10 @@ import React from 'react'
 import styles from './index.module.css'
 
 import CTA from '../CTA'
-import Exchange from '../SVG/Exchange'
-import Swap from '../SVG/Swap'
+import Exchange from '../SVG/Exchange.svg'
+import Swap from '../SVG/Swap.svg'
+import Dashboard from '../SVG/Dashboard.svg'
 import Description from '../Description'
-import Portfolio from '../SVG/Portfolio'
 import Button from '../Button'
 import HorizontalWave from '../SVG/HorizontalWave'
 import SideWave from '../../images/wave.png'
@@ -17,17 +17,17 @@ import SwapImage from '../../images/swap.svg'
 
 const ctas = [
 	{
-		logo: <Exchange />,
+		logo: Exchange,
 		title: 'Decentralized Exhange',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'
 	},
 	{
-		logo: <Swap />,
+		logo: Swap,
 		title: 'Simple Atomic Swaps',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'
 	},
 	{
-		logo: <Portfolio />,
+		logo: Dashboard,
 		title: 'Portfolio Manager',
 		subTitle: 'Crypto ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'
 	},
@@ -52,9 +52,7 @@ const descriptions = [
 ]
 
 export default () => <div className={styles.main}>
-	{/* @todo: Make sure top and bottom padding sorrounding titles match what's in Figma */}
 	<p className={styles.title}>One stop crypto exchange solution</p>
-	{/* @todo: Fix weird looking SVGs. Beleraktam 3 optimalizált SVG-t az SVG folderbe. */}
 	<div className={styles.ctas}>
 		{
 			ctas.map(cta => <CTA key={cta.title} logo={cta.logo} title={cta.title} subTitle={cta.subTitle} />)

@@ -5,6 +5,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 5rem;
 }
 
 .title {
@@ -21,7 +22,7 @@
 }
 
 .ctas {
-  margin-top: 4rem;
+  margin-top: 6rem;
   display: flex;
   align-items: baseline;
 }
@@ -36,7 +37,7 @@
 }
 
 .descriptions {
-	margin-top: 4rem;
+	margin-top: 6rem;
   display: flex;
   flex-direction: column;
 	justify-content: space-between;
