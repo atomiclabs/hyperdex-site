@@ -60,6 +60,11 @@
 }
 
 /* Media Queries */
+@media(max-width: 768px) {
+	.descriptions {
+		padding: 0 3rem;
+	}	
+}
 
 @media(max-width: 375px) {
 	.main {
@@ -78,10 +83,4 @@
 	.descriptions {
 		padding: 0 3rem;
 	}
-}
-
-@media(max-width: 768px) {
-	.descriptions {
-		padding: 0 3rem;
-	}	
 }
