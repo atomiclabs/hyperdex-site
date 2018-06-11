@@ -29,3 +29,12 @@
     margin: 0;
   }
 }
+
+@media(max-width: 768px) {
+  .cta {
+    padding: 0 1.5rem;
+  }
+  .title {
+    text-align: center;
+  }
+}

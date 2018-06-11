@@ -82,3 +82,19 @@
     height: 150px;
   }
 }
+
+@media(max-width: 768px) {
+  .headerAppImage {
+    width: 640px;
+  }
+  .title {
+    text-align: center;
+  }
+  .subTitle {
+    padding: 0 7rem;
+    text-align: center;
+  }
+  .divider {
+    height: 320px;
+  }
+}
