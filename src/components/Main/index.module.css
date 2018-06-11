@@ -58,3 +58,24 @@
 	z-index: 1;
 	transform: scale(-1)
 }
+
+/* Media Queries */
+
+@media(max-width: 375px) {
+	.main {
+		padding-top: 3rem;
+	}
+	.title {
+		text-align: center;
+		font-size: 24px;
+		line-height: normal;
+		padding: 0 2rem;
+	}
+	.ctas {
+		flex-direction: column;
+		margin-top: 4rem;
+	}
+	.descriptions {
+		padding: 0 3rem;
+	}
+}
