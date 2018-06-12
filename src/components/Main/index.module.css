@@ -84,3 +84,12 @@
 		padding: 0 3rem;
 	}
 }
+
+@media(min-width: 1500px) {
+	.ctas {
+		padding: 0 25rem;
+	}
+	.descriptions {
+		padding: 0 40rem;
+	}
+}
