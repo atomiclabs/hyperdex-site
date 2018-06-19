@@ -12,7 +12,10 @@ export default () => <div className={styles.header}>
 	<p className={styles.subTitle}>Desktop app for BarterDEX. Currently in private testing phase, official launch in July 2018.</p>
 	<Button text='Join the test' />
 	<p className={styles.text}>Available for MacOS, Linux and Windows.</p>
-	<Chart height={(window.innerWidth <= 375 && '100') || ((window.innerWidth > 375 && window.innerWidth <= 768) && '200')}/>
+	{
+		typeof window !== 'undefined' && 
+		<Chart height={(window.innerWidth <= 375 && '100') || ((window.innerWidth > 375 && window.innerWidth <= 768) && '200')}/>
+	}
 	<img src={headerAppImage} alt='stf' className={styles.headerAppImage}/>
 	<div className={styles.divider}></div>
 </div>
