@@ -1,0 +1,44 @@
+.blog {
+  padding-top: 2rem;
+  text-align: center;
+  background: #0e121a;
+}
+
+.title {
+  margin: 0;
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+.posts {
+  max-width: 600px;
+  margin: 5rem auto 0 auto;
+}
+
+.post {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.postTitle {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.postText {
+  color: #7F8FA4;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 1rem 0 0 0;
+}
+
+/* Pseudo Selectors */
+
+.post:first-child {
+  margin: 0;
+}
