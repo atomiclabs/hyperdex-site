@@ -45,7 +45,7 @@
 }
 
 /* Media Queries */
-@media(max-width: 375px) {
+@media(max-width: 600px) {
 	.description {
 		display: flex;
 		flex-direction: column;
@@ -83,10 +83,13 @@
 
 @media(max-width: 900px) {
 	.image {
-		width: 230px;
-		height: 230px;
+		width: 150px;
+		height: 150px;
 	}
 	.texts {
-		padding: 2.5rem 0;
+		padding: 0;
+	}
+	.subTitle {
+		margin-top: 1.5rem;
 	}
 }
