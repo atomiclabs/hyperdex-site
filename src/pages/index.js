@@ -1,11 +1,16 @@
 import React from 'react'
+import './index.module.css'
+
+import Header from '../components/Header'
+import Main from '../components/Main'
+import Footer from '../components/Footer'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </div>
+	<div>
+		<Header />
+		<Main />
+		<Footer />
+	</div>
 )
 
 export default IndexPage

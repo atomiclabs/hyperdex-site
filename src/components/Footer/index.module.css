@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #0E121A;
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.navLinks {
+  padding: 0;
+  margin: 1rem 0;
+  list-style: none;
+  text-align: center;
+}
+
+.navLinks li a {
+  color: #7F8FA4;
+  text-decoration: none;
+  line-height: 24px;
+}
