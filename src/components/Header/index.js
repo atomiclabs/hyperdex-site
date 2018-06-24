@@ -16,6 +16,6 @@ export default () => <div className={styles.header}>
 		typeof window !== 'undefined' && 
 		<Chart height={(window.innerWidth <= 375 && '100') || ((window.innerWidth > 375 && window.innerWidth <= 768) && '200')}/>
 	}
-	<img src={headerAppImage} alt='stf' className={styles.headerAppImage}/>
+	<img src={headerAppImage} className={styles.headerAppImage}/>
 	<div className={styles.divider}></div>
 </div>

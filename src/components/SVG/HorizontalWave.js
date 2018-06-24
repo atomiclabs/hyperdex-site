@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default () => <svg width="100%" height="198.1" viewBox="0 0 1440 198.1" fill="none" xmlns="http://www.w3.org/2000/svg">
+export default () => <svg width="100%" viewBox="0 0 1440 198.1" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<g opacity="0.1" filter="url(#filter0_d3)">
 		<path d="M0 73.1653C0 73.1653 166.5 -91.4567 720 73.1653C1273.5 237.787 1455.5 73.1653 1455.5 73.1653V225.5H0V73.1653Z" transform="translate(1439.5) scale(-1 1)" fill="url(#paint0_linear3)"/>
 	</g>
