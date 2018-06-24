@@ -18,3 +18,25 @@
   line-height: 24px;
   color: #7F8FA4;
 }
+
+
+
+/* Media Queries */
+@media(max-width: 375px) {
+  .cta {
+    margin-top: 3rem;
+    padding: 0 3.5rem;
+  }
+  .cta:first-child {
+    margin: 0;
+  }
+}
+
+@media(max-width: 768px) {
+  .cta {
+    padding: 0 1.5rem;
+  }
+  .title {
+    text-align: center;
+  }
+}
