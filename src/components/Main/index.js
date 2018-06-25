@@ -18,7 +18,7 @@ import SwapImage from '../../images/swap.svg'
 const ctas = [
 	{
 		logo: Exchange,
-		title: 'Decentralized Exhange',
+		title: 'Decentralized Exchange',
 		subTitle: 'You own your coins. No third party, no verifications, no limits.'
 	},
 	{
