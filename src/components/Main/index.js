@@ -70,7 +70,7 @@ export default () => <div className={styles.main}>
 	<div className={styles.rightWave}>
 		<img src={SideWave} alt='wave'/>
 	</div>
-	<p style={{marginTop: '2rem'}} className={styles.title}>Ready to try HyperDEX?</p>
+	<p className={styles.title}>Ready to try HyperDEX?</p>
 	<p className={styles.subTitle}>Do your first Atomic Swap in minutes.</p>
 	<Button text='Join the test' />
 	<p className={styles.text}>Available for macOS, Linux and Windows.</p>
