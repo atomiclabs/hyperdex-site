@@ -14,11 +14,11 @@ const items = [
 	},
 	{
 		title: 'GitHub',
-		url: 'github.com'
+		url: 'https://github.com/hyperdexapp'
 	},
 	{
 		title: 'Twitter',
-		url: 'twitter.com'
+		url: 'https://twitter.com/HyperDEXApp'
 	}
 ]
 
