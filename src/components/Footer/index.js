@@ -6,7 +6,7 @@ import SmallLogo from '../SVG/SmallLogo'
 const items = [
 	{
 		title: 'Download',
-		url: ''
+		url: 'https://github.com/atomiclabs/hyperdex/releases/latest'
 	},
 	{
 		title: 'Blog',
@@ -14,11 +14,11 @@ const items = [
 	},
 	{
 		title: 'GitHub',
-		url: 'github.com'
+		url: 'https://github.com/atomiclabs/hyperdex'
 	},
 	{
 		title: 'Twitter',
-		url: 'twitter.com'
+		url: 'https://twitter.com/hyperdexapp'
 	}
 ]
 
