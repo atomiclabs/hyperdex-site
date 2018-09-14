@@ -8,10 +8,10 @@ const items = [
 		title: 'Download',
 		url: 'https://github.com/atomiclabs/hyperdex/releases/latest'
 	},
-	{
-		title: 'Blog',
-		url: '/blog'
-	},
+	// {
+	// 	title: 'Blog',
+	// 	url: '/blog'
+	// },
 	{
 		title: 'GitHub',
 		url: 'https://github.com/atomiclabs/hyperdex'
