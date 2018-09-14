@@ -1,21 +1,19 @@
-# HyperDex Website
+# HyperDEX Website
 
 ## Install
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+```
+$ yarn
 ```
 
-Then you can run it by:
-```sh
-gatsby develop
+## Run
+
+```
+$ yarn start
 ```
 
 ## Build
 
-For production build, run:
-
-```sh
-gatsby build
+```
+$ yarn build
 ```

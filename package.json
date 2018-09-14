@@ -1,35 +1,62 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-netlify-cms": "^2.0.1",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-source-filesystem": "^1.5.38",
-    "gatsby-transformer-remark": "^1.7.41",
-    "netlify-cms": "^1.9.2",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "start": "gatsby develop --open",
-    "build": "gatsby build",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-react": "^7.9.1",
-    "prettier": "^1.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+	"name": "hyperdex-website",
+	"private": true,
+	"license": "MIT",
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"start": "gatsby develop --open",
+		"build": "gatsby build",
+		"lint": "xo && stylelint 'src/**/*.css'",
+		"test": "yarn lint"
+	},
+	"dependencies": {
+		"gatsby": "^1.9.247",
+		"gatsby-link": "^1.6.40",
+		"gatsby-plugin-netlify-cms": "^2.0.1",
+		"gatsby-plugin-react-helmet": "^2.0.10",
+		"gatsby-source-filesystem": "^1.5.38",
+		"gatsby-transformer-remark": "^1.7.41",
+		"netlify-cms": "^1.9.2",
+		"react-helmet": "^5.2.0"
+	},
+	"devDependencies": {
+		"eslint-config-xo-react": "^0.17.0",
+		"eslint-plugin-react": "^7.11.1",
+		"stylelint": "^9.5.0",
+		"stylelint-config-xo": "^0.10.0",
+		"xo": "^0.23.0"
+	},
+	"xo": {
+		"envs": [
+			"node",
+			"browser"
+		],
+		"extends": "xo-react",
+		"settings": {
+			"react": {
+				"version": "16.4"
+			}
+		},
+		"rules": {
+			"import/no-extraneous-dependencies": "off",
+			"import/no-unassigned-import": "off",
+			"comma-dangle": [
+				"error",
+				"always-multiline"
+			],
+			"unicorn/filename-case": "off",
+			"import/exports-last": "error",
+			"react/prop-types": "off",
+			"react/require-default-props": "off"
+		}
+	},
+	"stylelint": {
+		"extends": "stylelint-config-xo",
+		"rules": {
+			"selector-class-pattern": null,
+			"at-rule-empty-line-before": null
+		}
+	}
 }

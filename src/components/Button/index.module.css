@@ -1,18 +1,18 @@
 .button {
-    margin-top: 3.125rem;
-    background: linear-gradient(180deg, #687BF7 0%, #8050EF 97.78%);
-    border-radius: 0.25rem;
-    border: none;
-    color: #fff;
-    padding: .5625rem 2.5rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1.125rem;
-    cursor: pointer;
-    width: 178px;
-  }
-  
-  .button:hover {
-  background: linear-gradient(180deg, #6B7FFF 0%, #8654FA 97.78%);
-  }
+	margin-top: 3.125rem;
+	background: linear-gradient(180deg, #687bf7 0%, #8050ef 97.78%);
+	border-radius: 0.25rem;
+	border: none;
+	color: #fff;
+	padding: 0.563rem 2.5rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.125rem;
+	cursor: pointer;
+	width: 178px;
+}
+
+.button:hover {
+	background: linear-gradient(180deg, #6b7fff 0%, #8654fa 97.78%);
+}
