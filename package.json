@@ -2,9 +2,6 @@
 	"name": "hyperdex-website",
 	"private": true,
 	"license": "MIT",
-	"engines": {
-		"node": ">=10"
-	},
 	"scripts": {
 		"start": "gatsby develop --open",
 		"build": "gatsby build",
@@ -12,23 +9,25 @@
 		"test": "yarn lint"
 	},
 	"dependencies": {
-		"gatsby": "^1.9.247",
-		"gatsby-link": "^1.6.40",
-		"gatsby-plugin-netlify-cms": "^2.0.1",
-		"gatsby-plugin-react-helmet": "^2.0.10",
-		"gatsby-source-filesystem": "^1.5.38",
-		"gatsby-transformer-remark": "^1.7.41",
-		"netlify-cms": "^1.9.2",
+		"gatsby": "^2.0.14",
+		"gatsby-plugin-netlify-cms": "^3.0.3",
+		"gatsby-plugin-react-helmet": "^3.0.0",
+		"gatsby-source-filesystem": "^2.0.1",
+		"gatsby-transformer-remark": "^2.1.5",
+		"netlify-cms": "^2.1.2",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2",
 		"react-helmet": "^5.2.0"
 	},
 	"devDependencies": {
 		"eslint-config-xo-react": "^0.17.0",
 		"eslint-plugin-react": "^7.11.1",
-		"stylelint": "^9.5.0",
-		"stylelint-config-xo": "^0.10.0",
+		"stylelint": "^9.6.0",
+		"stylelint-config-xo": "^0.11.0",
 		"xo": "^0.23.0"
 	},
 	"xo": {
+		"nodeVersion": ">=10",
 		"envs": [
 			"node",
 			"browser"
